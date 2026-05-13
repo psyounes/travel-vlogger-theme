@@ -1,0 +1,12 @@
+/* Styles du customizer */
+.customizer-loading {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+/* Animations customizer */
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        transition: all 0.3s ease;
+    }
+}
