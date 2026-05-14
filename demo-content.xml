@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Contenu de démonstration Travel Vlogger Theme -->
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+	<title>Travel Vlogger Demo Content</title>
+	<link>https://example.com</link>
+	<description>Contenu de démonstration pour Travel Vlogger Theme</description>
+	<pubDate>Wed, 13 May 2026 15:00:00 +0000</pubDate>
+	<language>fr-fr</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+
+	<!-- CATÉGORIES -->
+	<item>
+		<title>Europe</title>
+		<link>https://example.com/category/europe/</link>
+		<wp:post_id>1</wp:post_id>
+		<wp:post_type>category</wp:post_type>
+		<wp:post_name>europe</wp:post_name>
+		<description>Destinations en Europe</description>
+	</item>
+
+	<item>
+		<title>Asie</title>
+		<link>https://example.com/category/asie/</link>
+		<wp:post_id>2</wp:post_id>
+		<wp:post_type>category</wp:post_type>
+		<wp:post_name>asie</wp:post_name>
+		<description>Destinations en Asie</description>
+	</item>
+
+	<item>
+		<title>Afrique</title>
+		<link>https://example.com/category/afrique/</link>
+		<wp:post_id>3</wp:post_id>
+		<wp:post_type>category</wp:post_type>
+		<wp:post_name>afrique</wp:post_name>
+		<description>Destinations en Afrique</description>
+	</item>
+
+	<!-- ARTICLE 1 -->
+	<item>
+		<title>Découvrez Paris en 3 Jours</title>
+		<link>https://example.com/paris-3-jours/</link>
+		<pubDate>Wed, 13 May 2026 10:00:00 +0000</pubDate>
+		<wp:post_id>10</wp:post_id>
+		<wp:post_name>paris-3-jours</wp:post_name>
+		<wp:post_type>post</wp:post_type>
+		<wp:status>publish</wp:status>
+		<category domain="category" nicename="europe">Europe</category>
+		<excerpt:encoded><![CDATA[La Ville Lumière vous appelle avec ses monuments historiques et sa gastronomie exceptionnelle.]]></excerpt:encoded>
+		<content:encoded><![CDATA[
+		<p>Paris, la capitale française, est l'une des destinations les plus visitées au monde. Avec ses monuments iconiques, ses cafés charmants et sa cuisine savoureuse, Paris offre une expérience inoubliable.</p>
+
+		<h2>Les incontournables</h2>
+		<ul>
+		<li>La Tour Eiffel</li>
+		<li>Notre-Dame de Reims</li>
+		<li>Le Louvre</li>
+		<li>Les Champs-Élysées</li>
+		<li>Montmartre</li>
+		</ul>
+
+		<h2>Où manger</h2>
+		<p>Découvrez les meilleurs restaurants et bistros parisiens. De la street food aux restaurants Michelin, Paris satisfera tous les palais.</p>
+
+		<h2>Conseil de voyage</h2>
+		<p>Visitez Paris au printemps ou en automne pour profiter du meilleur climat. Réservez vos hôtels à l'avance!</p>
+		]]></content:encoded>
+	</item>
+
+	<!-- ARTICLE 2 -->
+	<item>
+		<title>Bangkok : Le Cœur de la Thaïlande</title>
+		<link>https://example.com/bangkok-thailande/</link>
+		<pubDate>Tue, 12 May 2026 10:00:00 +0000</pubDate>
+		<wp:post_id>11</wp:post_id>
+		<wp:post_name>bangkok-thailande</wp:post_name>
+		<wp:post_type>post</wp:post_type>
+		<wp:status>publish</wp:status>
+		<category domain="category" nicename="asie">Asie</category>
+		<excerpt:encoded><![CDATA[Temples bouddhistes, street food délicieuse et vie nocturne vibrante vous attendent à Bangkok.]]></excerpt:encoded>
+		<content:encoded><![CDATA[
+		<p>Bangkok est la capitale vibrante de la Thaïlande, célèbre pour ses marchés flottants, ses temples bouddhistes et sa vie nocturne animée.</p>
+
+		<h2>À voir absolument</h2>
+		<ul>
+		<li>Grand Palais Royal</li>
+		<li>Wat Arun (Temple de l'Aube)</li>
+		<li>Marché flottant de Damnoen Saduak</li>
+		<li>Thanon Khao San</li>
+		</ul>
+
+		<h2>Street Food de Bangkok</h2>
+		<p>La nourriture de rue à Bangkok est mondialement réputée. Essayez le pad thai, les satays grillés et les mango sticky rice.</p>
+
+		<h2>Conseils pratiques</h2>
+		<p>Le mois idéal est novembre à février. Les tuk-tuks sont le moyen de transport local. Respectez les traditions bouddhistes.</p>
+		]]></content:encoded>
+	</item>
+
+	<!-- ARTICLE 3 -->
+	<item>
+		<title>Safari en Tanzanie : Une Expérience Inoubliable</title>
+		<link>https://example.com/safari-tanzanie/</link>
+		<pubDate>Mon, 11 May 2026 10:00:00 +0000</pubDate>
+		<wp:post_id>12</wp:post_id>
+		<wp:post_name>safari-tanzanie</wp:post_name>
+		<wp:post_type>post</wp:post_type>
+		<wp:status>publish</wp:status>
+		<category domain="category" nicename="afrique">Afrique</category>
+		<excerpt:encoded><![CDATA[Partez à la découverte de la faune africaine lors d'un safari inoubliable en Tanzanie.]]></excerpt:encoded>
+		<content:encoded><![CDATA[
+		<p>La Tanzanie est l'une des destinations de safari les plus spectaculaires d'Afrique. Le Serengeti et le Kilimandjaro vous attendent.</p>
+
+		<h2>Parcs nationaux</h2>
+		<ul>
+		<li>Serengeti National Park</li>
+		<li>Cratère du Ngorongoro</li>
+		<li>Tarangire National Park</li>
+		<li>Parc national du Kilimandjaro</li>
+		</ul>
+
+		<h2>Faune et flore</h2>
+		<p>Observez les "Big Five" : lions, éléphants, buffles, léopards et rhinocéros.</p>
+
+		<h2>Meilleure période</h2>
+		<p>La saison sèche (juin à octobre) est idéale pour les safaris.</p>
+		]]></content:encoded>
+	</item>
+
+	<!-- ARTICLE 4 -->
+	<item>
+		<title>Barcelone : Architecture et Plages</title>
+		<link>https://example.com/barcelone-espagne/</link>
+		<pubDate>Sun, 10 May 2026 10:00:00 +0000</pubDate>
+		<wp:post_id>13</wp:post_id>
+		<wp:post_name>barcelone-espagne</wp:post_name>
+		<wp:post_type>post</wp:post_type>
+		<wp:status>publish</wp:status>
+		<category domain="category" nicename="europe">Europe</category>
+		<excerpt:encoded><![CDATA[Les œuvres de Gaudí et les plages méditerranéennes font de Barcelone une destination unique.]]></excerpt:encoded>
+		<content:encoded><![CDATA[
+		<p>Barcelone combine l'architecture moderniste, les plages magnifiques et l'ambiance méditerranéenne. C'est une ville qui captive tous les voyageurs.</p>
+
+		<h2>Attractions principales</h2>
+		<ul>
+		<li>Sagrada Familia</li>
+		<li>Park Güell</li>
+		<li>Casa Batlló</li>
+		<li>Montjuïc</li>
+		<li>Plage de Barceloneta</li>
+		</ul>
+
+		<h2>Gastronomie</h2>
+		<p>La cuisine catalane est réputée mondialement. Goûtez la paella, les tapas et la crème catalane.</p>
+
+		<h2>Conseils</h2>
+		<p>Visitez en mai ou septembre pour éviter les foules. Procurez-vous un Barcelona Card pour les transports.</p>
+		]]></content:encoded>
+	</item>
+
+	<!-- ARTICLE 5 -->
+	<item>
+		<title>Bali : L'île des Dieux</title>
+		<link>https://example.com/bali-indonesie/</link>
+		<pubDate>Sat, 09 May 2026 10:00:00 +0000</pubDate>
+		<wp:post_id>14</wp:post_id>
+		<wp:post_name>bali-indonesie</wp:post_name>
+		<wp:post_type>post</wp:post_type>
+		<wp:status>publish</wp:status>
+		<category domain="category" nicename="asie">Asie</category>
+		<excerpt:encoded><![CDATA[Temples sacrés, rizières magnifiques et plages paradisiaques vous attendent à Bali.]]></excerpt:encoded>
+		<content:encoded><![CDATA[
+		<p>Bali est une île indonésienne qui fascine avec ses temples hindous, ses traditions anciennes et sa beauté naturelle époustouflante.</p>
+
+		<h2>Lieux incontournables</h2>
+		<ul>
+		<li>Tanah Lot (temple sur la roche)</li>
+		<li>Tegallalang Rice Terraces</li>
+		<li>Ubud Arts Market</li>
+		<li>Mont Batur</li>
+		<li>Plage de Seminyak</li>
+		</ul>
+
+		<h2>Spiritualité à Bali</h2>
+		<p>Découvrez les traditions hindoues balinaises et participez aux cérémonies locales.</p>
+
+		<h2>Activités</h2>
+		<p>Yoga, méditation, surf, plongée et randonnée sont parmi les activités populaires.</p>
+		]]></content:encoded>
+	</item>
+
+	<!-- ARTICLE 6 -->
+	<item>
+		<title>Le Maroc : Entre Désert et Méditerranée</title>
+		<link>https://example.com/maroc-voyage/</link>
+		<pubDate>Fri, 08 May 2026 10:00:00 +0000</pubDate>
+		<wp:post_id>15</wp:post_id>
+		<wp:post_name>maroc-voyage</wp:post_name>
+		<wp:post_type>post</wp:post_type>
+		<wp:status>publish</wp:status>
+		<category domain="category" nicename="afrique">Afrique</category>
+		<excerpt:encoded><![CDATA[Explorez les souks colorés et traversez les dunes du Sahara dans ce pays envoûtant.]]></excerpt:encoded>
+		<content:encoded><![CDATA[
+		<p>Le Maroc offre une diversité remarquable : des medinas historiques, des palais magnifiques, et le désert du Sahara qui s'étend à l'infini.</p>
+
+		<h2>Villes à explorer</h2>
+		<ul>
+		<li>Marrakech - la "ville rouge"</li>
+		<li>Fès - médina ancienne</li>
+		<li>Casablanca - modernité côtière</li>
+		<li>Essaouira - ville côtière</li>
+		<li>Merzouga - porte du désert</li>
+		</ul>
+
+		<h2>Expériences uniques</h2>
+		<p>Balade à dos de chameau, nuit dans un riad traditionnel, marché de Jemaa el-Fnaa et Mont Atlas.</p>
+
+		<h2>Conseils de voyage</h2>
+		<p>La meilleure période est octobre à avril. Respectez les coutumes locales et apprenez quelques mots d'arabe.</p>
+		]]></content:encoded>
+	</item>
+
+</channel>
+</rss>
